@@ -6,8 +6,8 @@ st.set_page_config(page_title="智能客服", layout="wide")
 st.title("🤖 智能客服知识库系统")
 st.markdown("支持订单查询、政策咨询、投诉、闲聊等")
 
-API_BASE_URL = "http://localhost:8000"  # 后端地址
-
+# API_BASE_URL = "http://localhost:8000"  # 后端地址
+API_BASE_URL = "http://47.106.110.30:8001"
 if "session_id" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())
 if "messages" not in st.session_state:
