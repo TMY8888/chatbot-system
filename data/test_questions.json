@@ -1,0 +1,7 @@
+[
+    {"query": "我的订单123456什么时候到？", "intent": "order_query"},
+    {"query": "退换货政策是什么？", "intent": "policy"},
+    {"query": "你们的产品太差了，我要投诉！", "intent": "complaint"},
+    {"query": "今天天气怎么样？", "intent": "chat"},
+    {"query": "小米手环9有什么功能？", "intent": "product_qa"}
+]
